@@ -5,7 +5,7 @@ class About extends React.Component
     {
         return (
             <div>
-                <h2>关于我们</h2>
+                <h2>关于我们2</h2>
             </div>
         )
     }
