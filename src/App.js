@@ -6,9 +6,9 @@ import Nav from './Nav/Nav'
 import {Route,BrowserRouter as Router,Switch,Redirect} from 'react-router-dom'
 import About from './About'
 import Contact from './Contact'
-import Home from './Home'
-import Err404 from './Err404'
-import ShowDetail from './ShowDetail'
+// import Home from './Home'
+// import Err404 from './Err404'
+// import ShowDetail from './ShowDetail'
 function App() {
     // let commentlist=[
     //     {"author":"张三","date":"2009-9-9","content":"今天心情好好"},

@@ -4,6 +4,9 @@ import 'whatwg-fetch'
 import api from '../Api'
 import {Link,Route} from 'react-router-dom'
 import ShowDetail from '../ShowDetail'
+import apiIf from '../api/index'
+
+
 class ProductList extends React.Component
 {
     constructor(){
@@ -14,7 +17,7 @@ class ProductList extends React.Component
     }
     componentWillMount(){
         //发起请求
-        fetch(`${api.baseUrl}/healthproject/admin/patientActivity/selectPatientActivityWhere`, {
+        fetch(api.baseUrl+apiIf.product.getHuanZi, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
